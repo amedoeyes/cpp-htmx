@@ -1,0 +1,9 @@
+<button hx-post="/counter" hx-swap="innerHTML" hx-target="#count">
+	Count:
+	<span
+		id="count"
+		hx-get="/counter"
+		hx-swap="innerHTML"
+		hx-trigger="load"
+	></span>
+</button>
